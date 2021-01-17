@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/back_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/fanhui"
+        android:fitsSystemWindows="true"
+      />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/sousuo"
+        android:fitsSystemWindows="true"
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/shoucang"
+        android:fitsSystemWindows="true"
+    />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="200dp"
+        android:background="@mipmap/more"
+        android:fitsSystemWindows="true"
+      />
+</LinearLayout>
